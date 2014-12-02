@@ -21,6 +21,14 @@
 		F4769FA419B0054600421AF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4769F8619B0054500421AF5 /* UIKit.framework */; };
 		F4769FAC19B0054600421AF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4769FAA19B0054600421AF5 /* InfoPlist.strings */; };
 		F4769FAE19B0054600421AF5 /* TestingPopViewControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4769FAD19B0054600421AF5 /* TestingPopViewControllersTests.m */; };
+		F4769FB819B0056F00421AF5 /* CTIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4769FB719B0056F00421AF5 /* CTIViewController.xib */; };
+		F4769FBC19B005FD00421AF5 /* CTISecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4769FBA19B005FD00421AF5 /* CTISecondViewController.m */; };
+		F4769FBD19B005FD00421AF5 /* CTISecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4769FBB19B005FD00421AF5 /* CTISecondViewController.xib */; };
+		F4769FC119B006EC00421AF5 /* CTIThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4769FBF19B006EC00421AF5 /* CTIThirdViewController.m */; };
+		F4769FC219B006EC00421AF5 /* CTIThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4769FC019B006EC00421AF5 /* CTIThirdViewController.xib */; };
+		F4769FC619B0082600421AF5 /* CTIFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4769FC419B0082600421AF5 /* CTIFullScreenViewController.m */; };
+		F4769FC719B0082600421AF5 /* CTIFullScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4769FC519B0082600421AF5 /* CTIFullScreenViewController.xib */; };
+		F4B9C7A719B041E900B28FE4 /* UIViewController+ModalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B9C7A619B041E900B28FE4 /* UIViewController+ModalPush.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,19 @@
 		F4769FA919B0054600421AF5 /* TestingPopViewControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestingPopViewControllersTests-Info.plist"; sourceTree = "<group>"; };
 		F4769FAB19B0054600421AF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4769FAD19B0054600421AF5 /* TestingPopViewControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingPopViewControllersTests.m; sourceTree = "<group>"; };
+		F4769FB719B0056F00421AF5 /* CTIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTIViewController.xib; sourceTree = "<group>"; };
+		F4769FB919B005FD00421AF5 /* CTISecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTISecondViewController.h; sourceTree = "<group>"; };
+		F4769FBA19B005FD00421AF5 /* CTISecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTISecondViewController.m; sourceTree = "<group>"; };
+		F4769FBB19B005FD00421AF5 /* CTISecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTISecondViewController.xib; sourceTree = "<group>"; };
+		F4769FBE19B006EC00421AF5 /* CTIThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTIThirdViewController.h; sourceTree = "<group>"; };
+		F4769FBF19B006EC00421AF5 /* CTIThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTIThirdViewController.m; sourceTree = "<group>"; };
+		F4769FC019B006EC00421AF5 /* CTIThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTIThirdViewController.xib; sourceTree = "<group>"; };
+		F4769FC319B0082600421AF5 /* CTIFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTIFullScreenViewController.h; sourceTree = "<group>"; };
+		F4769FC419B0082600421AF5 /* CTIFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTIFullScreenViewController.m; sourceTree = "<group>"; };
+		F4769FC519B0082600421AF5 /* CTIFullScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTIFullScreenViewController.xib; sourceTree = "<group>"; };
+		F4B9C7A519B041E900B28FE4 /* UIViewController+ModalPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ModalPush.h"; sourceTree = "<group>"; };
+		F4B9C7A619B041E900B28FE4 /* UIViewController+ModalPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ModalPush.m"; sourceTree = "<group>"; };
+		F4B9C7A819B0AD4B00B28FE4 /* CTIDismissModalDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTIDismissModalDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +103,8 @@
 		F4769F7619B0054500421AF5 = {
 			isa = PBXGroup;
 			children = (
+				F4B9C7A519B041E900B28FE4 /* UIViewController+ModalPush.h */,
+				F4B9C7A619B041E900B28FE4 /* UIViewController+ModalPush.m */,
 				F4769F8819B0054500421AF5 /* TestingPopViewControllers */,
 				F4769FA719B0054600421AF5 /* TestingPopViewControllersTests */,
 				F4769F8119B0054500421AF5 /* Frameworks */,
@@ -117,8 +140,19 @@
 				F4769F9419B0054500421AF5 /* Main.storyboard */,
 				F4769F9719B0054500421AF5 /* CTIViewController.h */,
 				F4769F9819B0054500421AF5 /* CTIViewController.m */,
+				F4769FB719B0056F00421AF5 /* CTIViewController.xib */,
 				F4769F9A19B0054500421AF5 /* Images.xcassets */,
 				F4769F8919B0054500421AF5 /* Supporting Files */,
+				F4769FB919B005FD00421AF5 /* CTISecondViewController.h */,
+				F4769FBA19B005FD00421AF5 /* CTISecondViewController.m */,
+				F4769FBB19B005FD00421AF5 /* CTISecondViewController.xib */,
+				F4769FBE19B006EC00421AF5 /* CTIThirdViewController.h */,
+				F4769FBF19B006EC00421AF5 /* CTIThirdViewController.m */,
+				F4769FC019B006EC00421AF5 /* CTIThirdViewController.xib */,
+				F4769FC319B0082600421AF5 /* CTIFullScreenViewController.h */,
+				F4769FC419B0082600421AF5 /* CTIFullScreenViewController.m */,
+				F4769FC519B0082600421AF5 /* CTIFullScreenViewController.xib */,
+				F4B9C7A819B0AD4B00B28FE4 /* CTIDismissModalDelegate.h */,
 			);
 			path = TestingPopViewControllers;
 			sourceTree = "<group>";
@@ -229,7 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4769FBD19B005FD00421AF5 /* CTISecondViewController.xib in Resources */,
+				F4769FC219B006EC00421AF5 /* CTIThirdViewController.xib in Resources */,
 				F4769F9B19B0054500421AF5 /* Images.xcassets in Resources */,
+				F4769FC719B0082600421AF5 /* CTIFullScreenViewController.xib in Resources */,
+				F4769FB819B0056F00421AF5 /* CTIViewController.xib in Resources */,
 				F4769F8D19B0054500421AF5 /* InfoPlist.strings in Resources */,
 				F4769F9619B0054500421AF5 /* Main.storyboard in Resources */,
 			);
@@ -252,7 +290,11 @@
 			files = (
 				F4769F8F19B0054500421AF5 /* main.m in Sources */,
 				F4769F9319B0054500421AF5 /* CTIAppDelegate.m in Sources */,
+				F4769FC119B006EC00421AF5 /* CTIThirdViewController.m in Sources */,
 				F4769F9919B0054500421AF5 /* CTIViewController.m in Sources */,
+				F4769FC619B0082600421AF5 /* CTIFullScreenViewController.m in Sources */,
+				F4769FBC19B005FD00421AF5 /* CTISecondViewController.m in Sources */,
+				F4B9C7A719B041E900B28FE4 /* UIViewController+ModalPush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +501,7 @@
 				F4769FB319B0054600421AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4769FB419B0054600421AF5 /* Build configuration list for PBXNativeTarget "TestingPopViewControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +510,7 @@
 				F4769FB619B0054600421AF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

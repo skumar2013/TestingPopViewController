@@ -7,12 +7,20 @@
 //
 
 #import "CTIAppDelegate.h"
+#import "CTIViewController.h"
 
 @implementation CTIAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    CTIViewController *controller = [[CTIViewController alloc] initWithNibName:@"CTIViewController" bundle:nil];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    
+    self.window.rootViewController = self.navController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

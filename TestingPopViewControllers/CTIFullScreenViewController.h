@@ -1,5 +1,5 @@
 //
-//  CTIViewController.h
+//  CTIFullScreenViewController.h
 //  TestingPopViewControllers
 //
 //  Created by Santhosh Kumar on 8/28/14.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CTISecondViewController.h"
 
-
-@interface CTIViewController : UIViewController //<CTIDismissModalDelegate>
-
+@interface CTIFullScreenViewController : UIViewController
 
 @end

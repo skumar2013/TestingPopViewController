@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CTIAppDelegate : UIResponder <UIApplicationDelegate>
+@interface CTIAppDelegate : UIResponder <UIApplicationDelegate> {
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UINavigationController *navController;
 
 @end
